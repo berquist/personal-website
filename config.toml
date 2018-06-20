@@ -25,15 +25,21 @@ url                    = "/blog/"
 
 [[menu.main]]
 name                   = "About"
-weight                 = -110
+weight                 = -120
 identifier             = "about"
 url                    = "/about/"
 
 # [[menu.main]]
 # name                   = "Code"
-# weight                 = -100
+# weight                 = -120
 # identifier             = "code"
 # url                    = "/code/"
+
+# [[menu.main]]
+# name                   = "Pages"
+# weight                 = -120
+# identifier             = "pages"
+# url                    = "/pages/"
 
 [params]
 # include RSS <link> tag in <head> and show RSS icon
