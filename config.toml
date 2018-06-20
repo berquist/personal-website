@@ -10,7 +10,7 @@ author              = "Eric Berquist"
 title               = "Eric Berquist"
 pygmentsuseclasses  = true
 # Comment out to disable Disqus.
-disqusshortname     = "cocoaexamplesite"
+# disqusshortname     = "cocoaexamplesite"
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
 
@@ -29,11 +29,11 @@ weight                 = -110
 identifier             = "about"
 url                    = "/about/"
 
-[[menu.main]]
-name                   = "Code"
-weight                 = -100
-identifier             = "code"
-url                    = "/code/"
+# [[menu.main]]
+# name                   = "Code"
+# weight                 = -100
+# identifier             = "code"
+# url                    = "/code/"
 
 [params]
 # include RSS <link> tag in <head> and show RSS icon
@@ -47,7 +47,7 @@ author                 = "Eric Berquist"
 cachebuster            = true
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Don't panic"
+# description            = "Don't panic"
 # email                  = "you@example.space"
 # In your `static` directory, add/remove files as necessary.
 extracssfiles          = [ "/css/override.css" ]

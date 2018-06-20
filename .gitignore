@@ -1,0 +1,6 @@
+# I have Emacs run pandoc automatically on Markdown files, so ignore
+# them completely as long as I don't have custom HTML.
+*.html
+
+# This is the default hugo build directory.
+# public/
