@@ -9,11 +9,8 @@ theme               = "cocoa"
 author              = "Eric Berquist"
 title               = "Eric Berquist"
 pygmentsuseclasses  = true
-# Comment out to disable Disqus.
-# disqusshortname     = "cocoaexamplesite"
 disqusShortname     = ""
 pluralizelisttitles = false
-# googleAnalytics     = "UA-123-45"
 googleAnalytics     = ""
 
 [permalinks]
@@ -25,9 +22,9 @@ identifier             = "blog"
 url                    = "/blog/"
 
 [[menu.main]]
-name                   = "About"
-identifier             = "about"
-url                    = "/about/"
+name                   = "Pages"
+identifier             = "pages"
+url                    = "/pages/"
 
 [params]
 # include RSS <link> tag in <head> and show RSS icon
@@ -65,3 +62,6 @@ highlightjs            = true
 # avatar                 = "img/profile.png"
 # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
 gravatar               = "5c4845ced96093ba29d9b3bab42deed7"
+
+[markup.goldmark.renderer]
+unsafe = true
