@@ -1,6 +1,18 @@
-# I have Emacs run pandoc automatically on Markdown files, so ignore
-# them completely as long as I don't have custom HTML.
-*.html
-
-# This is the default hugo build directory.
-# public/
+*jar
+.clj-kondo/
+.cpcache/
+.lein-deps-sum
+.lein-failures
+.lein-plugins/
+.lein-repl-history
+.lsp/
+.sass-cache/
+/checkouts/
+/classes/
+/lib/
+/public/
+/target/
+/themes/lotus/css/blog.css
+/themes/lotus/css/blog.css.map
+pom.xml
+pom.xml.asc

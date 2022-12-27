@@ -1,6 +1,3 @@
-[submodule "themes/cocoa"]
-	path = themes/cocoa
-	url = git@github.com:berquist/cocoa-hugo-theme.git
 [submodule "public"]
 	path = public
 	url = git@github.com:berquist/berquist.github.io.git
